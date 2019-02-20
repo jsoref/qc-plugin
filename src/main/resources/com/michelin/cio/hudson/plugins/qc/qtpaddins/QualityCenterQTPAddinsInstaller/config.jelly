@@ -36,8 +36,9 @@
       <f:textbox />
     </f:entry>
   </f:advanced>
-  <f:entry title="" field="acceptLicense">
-    <f:checkbox/>
-    <label class="attach-previous">${%I agree to the QuickTest Professional Add-in License Agreement}</label>
+  <f:entry field="acceptLicense">
+    <f:checkbox
+       title="${%I agree to the QuickTest Professional Add-in License Agreement}"
+    />
   </f:entry>
 </j:jelly>
